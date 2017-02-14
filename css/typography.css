@@ -1,0 +1,15 @@
+body {
+    margin:0;
+    background: url("../images/leading-24px.png");
+}
+p {
+    margin-top:0;
+    margin-bottom:1.5em;
+    font-size: 16px;
+   
+    color:#212121;
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5;
+    letter-spacing:-0.005em;
+
+}

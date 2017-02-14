@@ -1,0 +1,24 @@
+body {
+    margin:0;
+}
+
+p {
+    width: 500px;
+    height: 200px;
+    /* 패딩(안쪽공간) */
+    padding: 10px;
+    /* 배경색  */
+    background-color: #4559c7;
+}
+
+p {
+    border-top-width:1px;
+    border-top-style:solid;
+    border-top-color:#4559c7;
+
+}
+p {
+    margin-top:0;
+    margin-bottom:20px;
+    
+}
