@@ -1,3 +1,7 @@
+@charset "UTF-8;"
+/*! style.css @ roscoe, 2017 */
+
+
 html{
     font-size: 10px;
 }
@@ -5,10 +9,12 @@ title {
 text-align: center;
 
 }
-
+/* body요소에 배경이미지 설정 */
 body {
-    margin:0;
-/** background: url("../images/leading-24px.png"); **/
+    
+    margin: 8px;
+    height: 500px;
+    background: url("../images/leading-21px.png"); 
     font-size: 1.4rem;
     font-family: "Spoqa Han Sans";
     line-height: 1.5;
@@ -66,6 +72,7 @@ line-height: 4.8rem;
 h2{ font-size: 4.883rem;
 line-height: 4.8rem;
 }
-h1{ font-size: 6.104rem;
+h1{ font-size:
+ 6.104rem;
 line-height: 7.2rem;
 }
