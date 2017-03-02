@@ -1,3 +1,16 @@
+
+/*:가상클래스 VS ::가상요소(Psudo Element)*/
+p::-moz-selection{
+background:#ffd3da;
+color:#f44da4;
+}
+p::selection{
+background:#ffd3da;
+color:#f44da4;
+}
+
+
+
 body {
     margin:0;
 }
@@ -5,7 +18,7 @@ body {
 .wrapper {
     /*width, height 속성은 블록 요소에만 적용된다.
     인라인 요소에는 적용되지 않는다.*/
-    width: 640px;
+    width: 720px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -65,10 +78,14 @@ color:#f44da4;
 
 .album-image{
 
-    width:100%;
-    height:auto;
-    margin:30px 0;
-    border:8px solid #0044ed;
+    /*width:100%;
+    height:auto;*/
+    margin:5px;
+    border:8px solid #ccc;
     padding: 20px;
     background:#fff;
+    transition:border-color 700ms ease;
+}
+.album-image:hover{
+    border-color:#0044ed;
 }

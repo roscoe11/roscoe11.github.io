@@ -1,0 +1,32 @@
+
+html 
+{
+overflow-y:scroll;
+/*y축으로 항상 scroll을 보여주겠다*/
+}
+
+
+.demo {
+
+    width: 500px;
+    height: 340px;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    padding: 1em;
+}
+
+.o-vislble {
+    overflow:visible;
+}
+
+.o-hidden {
+    overflow:hidden;
+}
+
+.o-scroll {
+    overflow:scroll;
+}
+
+.o-auto {
+    overflow:auto;
+}
