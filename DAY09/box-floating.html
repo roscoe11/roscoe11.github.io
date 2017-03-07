@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>CSS 플로팅 레이아웃 테크닉</title>
+    <link rel="stylesheet" href="css/float-tech.css">
+    <style>
+    body {
+        margin:4rem;
+    }
+
+    .box {
+        width:100px;
+        height:100px;
+        border:10px solid #eee;
+        text-align: center;
+        line-height:100px;
+        text-transform:uppercase;
+    }
+    .red {
+        color:#fe4940; border-color: currentColor;
+    }
+    .green {
+        color:#3aa21e; border-color: currentColor;
+    }
+    .blue {
+        color:#7283dd; border-color: currentColor;
+    }
+    .fl {float:left;}
+    .fr {float:right;}
+    .clear {clear:both;}
+    </style>
+</head>
+<body>
+<div class="red box fl">red</div>
+<div class="green box fl">green</div>
+<div class="blue box fl">blue</div>
+
+
+</body>
+</html>
